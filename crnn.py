@@ -43,7 +43,7 @@ outputs = Dense(len(char_list) + 1, activation='softmax')(blstm_2)
 
 model_crnn = Model(inputs, outputs)
 
-model_crnn.load_weights('best_model.hdf5')
+model_crnn.load_weights('crnn.hdf5')
 
 
 def recognize_words(line_indicator, word_array, n_lines, filename):
