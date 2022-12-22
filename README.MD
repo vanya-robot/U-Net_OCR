@@ -1,1 +1,1 @@
-### Russian language OCR, based on neural network ensemble.
+### Russian language OCR built with U-Net models and CRNN (plus additional Faster-RCNN for russian passport recognition task).
