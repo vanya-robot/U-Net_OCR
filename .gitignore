@@ -1,0 +1,7 @@
+ocr_venv
+PageSegData
+Dataset_words
+fasterrcnn_dataset
+DataForOCR
+.idea
+__pycache__
