@@ -46,8 +46,8 @@ model_crnn = Model(inputs, outputs)
 model_crnn.load_weights('crnn.hdf5')
 
 
-def recognize_words(line_indicator, word_array, n_lines, filename):
-    file = open(filename.split('.')[0] + '.txt', 'w+')
+def recognize_words(line_indicator, word_array, n_lines, directory, filename):
+    file = open(directory + filename.split('.')[0] + '.txt', 'w+')
     speller = YandexSpeller()
     line_rec = []
     for listidx in range(n_lines):

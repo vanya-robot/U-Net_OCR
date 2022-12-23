@@ -43,4 +43,4 @@ all_words_list = np.array(all_words_list)
 del word_unet
 
 # Perform the recognition on list of list of words.
-recognize_words(full_index_indicator, all_words_list, len_line_arr, filename)
+recognize_words(full_index_indicator, all_words_list, len_line_arr, directory, filename)
