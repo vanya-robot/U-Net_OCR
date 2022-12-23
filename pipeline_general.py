@@ -1,12 +1,8 @@
 import numpy as np
-import torch
 from unet_lines import segment_into_lines
 from pipeline_utils import segment_into_words
 from crnn import recognize_words
 from unet import unet
-
-# Load frcnn detection model
-frcnn = torch.load('fasterrcnn.h5', map_location=torch.device('cpu'))  # Change to GPU if you have one
 
 # Open image and segment into lines
 directory = './example/'
