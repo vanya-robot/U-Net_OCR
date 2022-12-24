@@ -5,6 +5,8 @@ Use by running pipeline_general.py (for general text recognition purposes)
 
 or pipeline_passport.py (for Russian Federation passport recognition)
 
+Recognition model that is presented here were trained on these fonts (cyrillic): **Arial, Courier New, OCR B.**
+
 General system pipeline:
 1. **U-Net** trained to segment lines of text from image (pic. 1).
 2. **U-Net** trained to segment words from lines of text (pic. 2).
